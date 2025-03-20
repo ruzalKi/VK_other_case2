@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "dffaca8ba49dc8db",
+    "type": "split",
+    "children": [
+      {
+        "id": "87c26bcfee6228a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c898922ad87ec5c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Граф обсидиан/Общий функциональный граф.canvas",
+                "viewState": {
+                  "x": -7.941852093810667,
+                  "y": 324.85565047423563,
+                  "zoom": -0.3333333333333334
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Общий функциональный граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "face40a480821b70",
+    "type": "split",
+    "children": [
+      {
+        "id": "93200f70afc363e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "469efabb8a5d3f29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "8bf0dd4744086e9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "b1269684b4fdefbd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "18d78bad1ea2e202",
+    "type": "split",
+    "children": [
+      {
+        "id": "885a0922745e2edc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cc3a0b5162c21ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Граф обсидиан/Общий функциональный граф.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Общий функциональный граф"
+            }
+          },
+          {
+            "id": "3b535efc9d79130b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Граф обсидиан/Общий функциональный граф.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Общий функциональный граф"
+            }
+          },
+          {
+            "id": "fac9f4a219087365",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "ce90b682fbcee6f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Граф обсидиан/Общий функциональный граф.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Общий функциональный граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "0c898922ad87ec5c",
+  "lastOpenFiles": [
+    "Граф обсидиан/Общий функциональный граф.canvas",
+    "Граф обсидиан"
+  ]
+}
