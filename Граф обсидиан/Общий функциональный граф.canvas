@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"7fedbd3432b8c1d3","x":-140,"y":480,"width":300,"height":560,"color":"#ffffff","type":"group","label":"Задание"},
-		{"id":"7a0921df59879c25","x":1060,"y":320,"width":290,"height":480,"color":"#ffffff","type":"group","label":"Магазин"},
 		{"id":"641a69a6e2047cd9","x":-120,"y":-220,"width":250,"height":60,"type":"text","text":"Начало цикла"},
 		{"id":"d5b1b09d63146921","x":-495,"y":-220,"width":250,"height":60,"color":"#ffffff","type":"text","text":"Оранжевый - схема сообщения"},
 		{"id":"c0d2cf417f039e18","x":-120,"y":-330,"width":250,"height":60,"color":"1","type":"text","text":"Добавление нового пользователя"},
@@ -10,23 +9,16 @@
 		{"id":"b1c18866a927dadb","x":-120,"y":500,"width":260,"height":140,"color":"2","type":"text","text":"&автор -> &название\n&комментарий\nСтатус: &статус\nНаграда: &цена монет"},
 		{"id":"6a0d85f35c6cb9dc","x":-640,"y":100,"width":250,"height":180,"type":"text","text":"Вывести полный список заданий в чат"},
 		{"id":"64bf31446b570a8c","x":540,"y":100,"width":250,"height":180,"type":"text","text":"Вывести список невыполненных заданий. Не отображать надпись со статусом выполнения."},
-		{"id":"3f6e596ad6b8568c","x":1080,"y":100,"width":250,"height":50,"type":"text","text":"Открыть магазин"},
 		{"id":"3eed3abaad7b1f29","x":-495,"y":-330,"width":250,"height":60,"color":"#ffffff","type":"text","text":"&имя - запрос к инфе"},
-		{"id":"908a281cf0cc280e","x":1080,"y":190,"width":250,"height":60,"color":"2","type":"text","text":"Баланс: &баланс"},
-		{"id":"2205e1205b5f49cb","x":1080,"y":340,"width":250,"height":100,"color":"2","type":"text","text":"&автор -> &название\n&комментарий\n&цена"},
 		{"id":"310f4e85e757d40d","x":-495,"y":-120,"width":250,"height":60,"color":"#ffffff","type":"text","text":"Красный - запросы к бд"},
 		{"id":"ac0d8fe2b43e6920","x":-120,"y":960,"width":260,"height":60,"color":"2","type":"text","text":"Ваш баланс: &баланс"},
 		{"id":"35a75725ca0337b3","x":-120,"y":860,"width":260,"height":60,"color":"2","type":"text","text":"Вы выполнили задание &название"},
 		{"id":"0b7d5441bbc35090","x":-120,"y":720,"width":260,"height":100,"color":"1","type":"text","text":"Изменить информацию о балансе и заданиях пользователя"},
-		{"id":"cce4bfdf712d942d","x":1080,"y":500,"width":250,"height":180,"color":"1","type":"text","text":"Обновить список не купленных товаров в магазине, обновить список купленных товаров в профиле, обновить баланс"},
-		{"id":"a0b101df7740bbed","x":1080,"y":720,"width":250,"height":60,"color":"2","type":"text","text":"Вы купили &название"},
-		{"id":"648daaa772dbbe0a","x":1520,"y":90,"width":250,"height":60,"type":"text","text":"Открыть профиль"},
-		{"id":"6bf8d858d4e14a3c","x":1520,"y":190,"width":250,"height":60,"color":"2","type":"text","text":"Имя: &имя"},
-		{"id":"66947da23c806210","x":1820,"y":190,"width":250,"height":60,"color":"2","type":"text","text":"Баланс: &баланс"},
-		{"id":"3baab58531ff275f","x":1520,"y":340,"width":250,"height":60,"color":"1","type":"text","text":"Изменить имя на введенное в чат"},
-		{"id":"247423fbbc0c3ac2","x":1520,"y":440,"width":250,"height":60,"color":"2","type":"text","text":"Вы изменили имя на &имя"},
-		{"id":"117053c3db3dc978","x":2120,"y":190,"width":250,"height":60,"color":"2","type":"text","text":"Товары: &количество_товаров"},
-		{"id":"f18c588ed0fb3810","x":2120,"y":340,"width":250,"height":60,"color":"2","type":"text","text":"&автор -> &название\n&комментарий"}
+		{"id":"3baab58531ff275f","x":1080,"y":350,"width":250,"height":60,"color":"1","type":"text","text":"Изменить имя на введенное в чат"},
+		{"id":"247423fbbc0c3ac2","x":1080,"y":450,"width":250,"height":60,"color":"2","type":"text","text":"Вы изменили имя на &имя"},
+		{"id":"648daaa772dbbe0a","x":1080,"y":100,"width":250,"height":60,"type":"text","text":"Открыть профиль"},
+		{"id":"6bf8d858d4e14a3c","x":1080,"y":200,"width":250,"height":60,"color":"2","type":"text","text":"Имя: &имя"},
+		{"id":"66947da23c806210","x":1380,"y":200,"width":250,"height":60,"color":"2","type":"text","text":"Баланс: &баланс"}
 	],
 	"edges":[
 		{"id":"7edc4a0f5b5d59ab","fromNode":"8b9976334d3a6fa4","fromSide":"bottom","toNode":"c0d2cf417f039e18","toSide":"top"},
@@ -37,21 +29,13 @@
 		{"id":"041bf666135e7910","fromNode":"a9297f334e202b82","fromSide":"bottom","toNode":"7fedbd3432b8c1d3","toSide":"top"},
 		{"id":"372505e9c584b201","fromNode":"641a69a6e2047cd9","fromSide":"bottom","toNode":"64bf31446b570a8c","toSide":"top","label":"Вывести невыполненные задания"},
 		{"id":"953ccb7edf08a98e","fromNode":"64bf31446b570a8c","fromSide":"bottom","toNode":"7fedbd3432b8c1d3","toSide":"top"},
-		{"id":"58f03e341d33ac44","fromNode":"641a69a6e2047cd9","fromSide":"bottom","toNode":"3f6e596ad6b8568c","toSide":"top","label":"Магазин"},
 		{"id":"8005bdf88f0aed2a","fromNode":"35a75725ca0337b3","fromSide":"bottom","toNode":"ac0d8fe2b43e6920","toSide":"top"},
-		{"id":"ff6b7b96ad904702","fromNode":"3f6e596ad6b8568c","fromSide":"bottom","toNode":"908a281cf0cc280e","toSide":"top"},
 		{"id":"412d33c108cb3c09","fromNode":"b1c18866a927dadb","fromSide":"bottom","toNode":"0b7d5441bbc35090","toSide":"top","label":"Отметить выполнение"},
 		{"id":"fd8e5728a53613af","fromNode":"0b7d5441bbc35090","fromSide":"bottom","toNode":"35a75725ca0337b3","toSide":"top"},
-		{"id":"3a7a77e8b2810e80","fromNode":"2205e1205b5f49cb","fromSide":"bottom","toNode":"cce4bfdf712d942d","toSide":"top","label":"Купить"},
-		{"id":"e06c3c8871e500af","fromNode":"cce4bfdf712d942d","fromSide":"bottom","toNode":"a0b101df7740bbed","toSide":"top"},
-		{"id":"3fe54439c07c3b8d","fromNode":"908a281cf0cc280e","fromSide":"bottom","toNode":"7a0921df59879c25","toSide":"top"},
-		{"id":"27f1d692b7089a08","fromNode":"641a69a6e2047cd9","fromSide":"bottom","toNode":"648daaa772dbbe0a","toSide":"top"},
+		{"id":"27f1d692b7089a08","fromNode":"641a69a6e2047cd9","fromSide":"bottom","toNode":"648daaa772dbbe0a","toSide":"top","label":"Открыть профиль"},
 		{"id":"48421af7d41a505d","fromNode":"648daaa772dbbe0a","fromSide":"bottom","toNode":"6bf8d858d4e14a3c","toSide":"top"},
 		{"id":"16fe0090ecb0f5be","fromNode":"6bf8d858d4e14a3c","fromSide":"right","toNode":"66947da23c806210","toSide":"left"},
 		{"id":"e454ebe4369c7e3c","fromNode":"6bf8d858d4e14a3c","fromSide":"bottom","toNode":"3baab58531ff275f","toSide":"top","label":"Изменить"},
-		{"id":"5de6131ae62031c4","fromNode":"3baab58531ff275f","fromSide":"bottom","toNode":"247423fbbc0c3ac2","toSide":"top"},
-		{"id":"31ed4957308f6849","fromNode":"66947da23c806210","fromSide":"top","toNode":"3f6e596ad6b8568c","toSide":"top","label":"Открыть магазин"},
-		{"id":"a7b6eadfbb6a1c76","fromNode":"66947da23c806210","fromSide":"right","toNode":"117053c3db3dc978","toSide":"left"},
-		{"id":"92853715bdef1c73","fromNode":"117053c3db3dc978","fromSide":"bottom","toNode":"f18c588ed0fb3810","toSide":"top","label":"Вывести список товаров"}
+		{"id":"5de6131ae62031c4","fromNode":"3baab58531ff275f","fromSide":"bottom","toNode":"247423fbbc0c3ac2","toSide":"top"}
 	]
 }
